@@ -1,0 +1,35 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;background-color:blue;
+    color:beige
+}
+h1{
+    color:brown;
+}
+a{
+    color:beige;
+}
+a:hover{
+    color:blue
+}
+ul>li{
+    font-weight:bold;
+}
+h1+ul{
+    background-color:black;
+    padding: 10px
+}
+ul li:hover{
+    color:blueviolet
+}
+ul li:nth-child(3){
+    color:aqua
+}
+ul li::before{
+    content:"🚀";
+}
+a::after{
+    content:"🚀"
+}
+p::first-letter{
+    font-size:200%;
+}
