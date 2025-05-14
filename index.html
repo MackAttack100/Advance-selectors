@@ -4,26 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to the Space Explorer's Club</h1>
-    <ul>
-        <li>Moon Missions</li>
-        <li>Mars Rovers</li>
-        <li>International Space Station</li>
-        <li>Telescopes and Stars</li>
-        <li>Black Holes Mysteries</li>
-    </ul>
-    <p>Space exploration has always
-        captivated human imagination.
-        It's a journey to the unknown!</p>
-    
-    <p>From the Moon to distant galaxies,
-        we continue to explore the
-        vastness of space.</p>
-    <a href="#">Join our Mission</a>
-    <a href="#">Latest Space News</a>
-    <a href="#">Gallery of the Universe</a>
+    <h2>Converting a Javascript object into a JSON string, and send it to Server</h2>
+    <p id="person1"></p>
+    <p id="kyuki_akhir_cheeze_bhi_insan_hote_hai"></p>
+    <script>
+        var myObj= {name:"Sanskriti", age: 13, grade: 7};
+        var myJSON =JSON.stringify(myObj);
+        var newObj =JSON.parse(myJSON);
+        document.getElementById("person1").innerHTML =newObj.name;
+        document.getElementById("kyuki_akhir_cheeze_bhi_insan_hote_hai").innerHTML=newObj.age;
+    </script>
 </body>
 </html>
